@@ -20,6 +20,13 @@ public class PlayerTest {
     @Test
     public void getFigure() throws Exception {
 
+        final Figure inputValue = Figure.X;
+        final Figure exceptValue = inputValue;
+        final Player player = new Player(null, inputValue);
+        final Figure actualFigure = player.getFigure();
+
+        assertEquals(exceptValue, actualFigure);
+
     }
 
 }
