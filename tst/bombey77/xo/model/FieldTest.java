@@ -98,5 +98,4 @@ public class FieldTest {
             field.getFigure(inputPoint);
         }catch (final InvalidPointException e) {}
     }
-
 }
