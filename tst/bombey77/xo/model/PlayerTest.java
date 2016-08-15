@@ -1,6 +1,9 @@
 package bombey77.xo.model;
 
+import bombey77.xo.model.exceptions.InvalidPointException;
 import org.junit.Test;
+
+import java.awt.*;
 
 import static org.junit.Assert.*;
 
@@ -26,5 +29,4 @@ public class PlayerTest {
 
         assertEquals(exceptValue, actualFigure);
     }
-
 }
