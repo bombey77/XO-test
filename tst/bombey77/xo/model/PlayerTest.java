@@ -14,7 +14,6 @@ public class PlayerTest {
         final String actualValue = player.getName();
 
         assertEquals(exceptValue, actualValue);
-
     }
 
     @Test
@@ -26,7 +25,6 @@ public class PlayerTest {
         final Figure actualFigure = player.getFigure();
 
         assertEquals(exceptValue, actualFigure);
-
     }
 
 }
