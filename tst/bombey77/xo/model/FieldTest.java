@@ -107,9 +107,8 @@ public class FieldTest {
         final Figure inputFigure = Figure.O;
         field.setFigure(inputPoint, inputFigure);
 
-        try {
+        try{
             field.setFigure(inputPoint, inputFigure);
-            fail();
         }catch (final AlreadyOccupiedException e) {}
     }
 }
